@@ -500,3 +500,4 @@
   512  history >> moving_around.txt
 
  rick changes
+ rik added this 
