@@ -1,0 +1,501 @@
+   13  cp some\ Swift\ code\ snips someSwiftCodeSnips.txt
+   14  ls -altr
+   15  rm "some Swift code snips" 
+   16  ls -altr
+   17  mv someSwiftCodeSnips.txt tit_origin/.
+   18  ls -altr
+   19  cd tit_origin/
+   20  ls -altr
+   21  git status
+   22  git status
+   23  git add .
+   24  git status
+   25  git reset HEAD someSwiftCodeSnips.txt 
+   26  git status
+   27  git status
+   28  git add .
+   29  git status
+   30  git commit -m "added a new file: someSwift..."
+   31  git log --oneline
+   32  git status
+   33  git status
+   34  git checkout someSwiftCodeSnips.txt 
+   35  git status
+   36  git status
+   37  ls
+   38  echo "BADDDDDDDDDDDDDDD" >> b
+   39  cat b
+   40  git status
+   41  git add .
+   42  git status
+   43  git commit -m "I was bad" 
+   44  git log -oneline
+   45  git log --oneline
+   46  git status
+   47  cat b
+   48  git checkout HEAD^ b
+   49  cat b
+   50  pwd
+   51  ls
+   52  ls -al
+   53  git log --oneline
+   54  git status
+   55  cat b
+   56  git log --oneline
+   57  git reset --hard HEAD~
+   58  git status
+   59  cat b
+   60  ls
+   61  rm R
+   62  rm a
+   63  rm b
+   64  rm file1
+   65  rm rick
+   66  rm someSwiftCodeSnips.txt 
+   67  ls -altr
+   68  git status
+   69  git log --oneline
+   70  git add .
+   71  git status
+   72  git status
+   73  git add --all .
+   74  git status
+   75  git commit -m "oops, I just destroyed your home planet"
+   76  git status
+   77  ls -altr
+   78  git log --oneline
+   79  git status
+   80  git status
+   81  ls
+   82  cp someSwiftCodeSnips.txt swiftCodeSnips.txt
+   83  ls
+   84  git status
+   85  git log --oneline
+   86  git reset --hard Head
+   87  ls -altr
+   88  git reset --hard Head^
+   89  ls -altr
+   90  rm someSwiftCodeSnips.txt 
+   91  ls
+   92  git status
+   93  git add .
+   94  git status
+   95  git add --all
+   96  git status
+   97  cat swiftCodeSnips.txt 
+   98  git status
+   99  git commit -m "renamed the snips file"
+  100  git status
+  101  git log --oneline
+  102  git status
+  103  git add .
+  104  git status
+  105  git commit -m "saved the renamed snips file"
+  106  git log --oneline
+  107  git status
+  108  git status
+  109  clear
+  110  git status
+  111  ls -altr
+  112  git log --oneline
+  113  mv .git bkup.git
+  114  ls -altr
+  115  rm .gitignore bkup.gitignore
+  116  mv .gitignore bkup.gitignore
+  117  ls -altr
+  118  git status
+  119  mv bkup.git .git
+  120  git status
+  121  git log --oneline
+  122  ls -al
+  123  rm R a b file1 rick
+  124  ls -al
+  125  git status
+  126  git reset --hard HEAD
+  127  ls -al
+  128  cd ..
+  129  ls -altr
+  130  cat .gitignore 
+  131  ls
+  132  cd tit
+  133  cd tit_origin/
+  134  ls -al
+  135  cp ../.gitignore 
+  136  pwd
+  137  cp ../.gitignore .
+  138  ls -al
+  139  git status
+  140  git add 
+  141  git add .
+  142  git status
+  143  git commit -m "tracking the .gitignore file"
+  144  git status
+  145  ls -altr
+  146  git log --online
+  147  git log --oneline
+  148  git reset --hard HEAD-
+  149  git reset --hard HEAD~
+  150  git log --oneline
+  151  git diff
+  152  git status
+  153  ls -altr
+  154  echo " we added this line to the b file" >> b
+  155  echo " ; and . we added this line to the a file" >> a
+  156  git status
+  157  git diff
+  158  clear
+  159  git diff
+  160  clear
+  161  git diff
+  162  git status
+  163  git add a
+  164  git status
+  165  clear
+  166  git diff
+  167  git status
+  168  git reset HEAD a
+  169  git status
+  170  git diff --staged
+  171  git add .
+  172  git diff --staged
+  173  git status
+  174  git reset HEAD
+  175  git status
+  176  git diff
+  177  git status
+  178  git add .
+  179  git add .
+  180  git add .
+  181  git status
+  182  git diff
+  183  git diff -staged
+  184  git diff -stagged
+  185  git diff --staged
+  186  git status
+  187  clear
+  188  ls
+  189  cl
+  190  git status
+  191  git checkout -b bugHunt
+  192  git checkout -b newFeature
+  193  git checkout -b lightVersion
+  194  git status
+  195  git branch
+  196  git status
+  197  git checkout master
+  198  git commit -m "after making several branches, commit two files, a and b, from earlier?"
+  199  git status
+  200  clear
+  201  git branch
+  202  git status
+  203  git checkout master
+  204  git status
+  205  git branch
+  206  git merge newFeature
+  207  git branch
+  208  git branch -b newFeature
+  209  git branch -d newFeature
+  210  git branch
+  211  git merge new_feature
+  212  git branch
+  213  git branch -d new_feature
+  214  git merge lightVersion
+  215  git branch -d lightVersion
+  216  git branch
+  217  git checkout bughunt
+  218  ls -altr
+  219  echo " add to file rick this line" >> rick
+  220  echo " more to a" >> a
+  221  git status
+  222  git branch
+  223  git status
+  224  git add .
+  225  git commit -m " two files changed" 
+  226  git status
+  227  git branch
+  228  git checkout master
+  229  git merge bughunt
+  230  cat a
+  231  pwd
+  232  git status
+  233  git add .
+  234  git status
+  235  git branch
+  236  git status
+  237  git commit -m "two files a and rick from bug hunt"
+  238  git status
+  239  git branch -d bughunt 
+  240  git branch 
+  241  ls
+  242  ls rick someSwiftCodeSnips.txt 
+  243  ls -al
+  244  cd ..
+  245  ls
+  246  ls -al
+  247  cat .gitignore 
+  248  pwd
+  249  mkdir SatGitClassSpoonKnife
+  250  cd SatGitClassSpoonKnife/
+  251  ls -altr
+  252  git init
+  253  ls -altr
+  254  git remote add origin https://github.com/brightquasar/Spoon-Knife.git
+  255  ls -altr
+  256  git status
+  257  ls -altr
+  258  git clone https://github.com/brightquasar/Spoon-Knife.git
+  259  ls -altr
+  260  ls -altr Spoon-Knife/
+  261  pwd
+  262  git status
+  263  git add .
+  264  git status
+  265  git commit -m "firt commit of cloned fork"
+  266  git log
+  267  git branch
+  268  git checkout -b workingOn
+  269  git status
+  270  git branch
+  271  ls
+  272  cd Spoon-Knife/
+  273  ls
+  274  vim README.md 
+  275  git status
+  276  git add .
+  277  git commit -m "second commit, an actual change to the README file" 
+  278  git add .
+  279  git status
+  280  git branch
+  281  clear
+  282  pwd
+  283  ls -altr
+  284  whoami
+  285  uname
+  286  ls -altr
+  287  git branch
+  288  pwd
+  289  cd ..
+  290  ls -al
+  291  pwd
+  292  ls -al
+  293  cat .sh_history 
+  294  pwd
+  295  ls -al
+  296  ls -altr
+  297  cd SatGitClassSpoonKnife/
+  298  ls -altr
+  299  git status
+  300  git add .
+  301  git status
+  302  git commit -m "first commit?"
+  303  git status
+  304  git log --oneline
+  305  git banch
+  306  git branch
+  307  ls
+  308  cd Spoon-Knife/
+  309  ls
+  310  echo " add this " >> README.md 
+  311  git status
+  312  pwd
+  313  ls -al
+  314  cd ..
+  315  ls
+  316  ls -al
+  317  pwd
+  318  rm -r Spoon-Knife/
+  319  y
+  320  y
+  321  ls
+  322  ls -a
+  323  cd .
+  324  ll
+  325  ls -a
+  326  cd ..
+  327  ls -a
+  328  cd SatGitClassSpoonKnife/
+  329  ls
+  330  ls -l
+  331  rm -r Spoon-Knife/
+  332  y
+  333  clear
+  334  ls -a
+  335  git clone https://github.com/brightquasar/Spoon-Knife.git
+  336  ls -a
+  337  cd Spoon-Knife/
+  338  ls
+  339  echo " add this " >> README.md 
+  340  cat README.md 
+  341  git status
+  342  git add .
+  343  git status
+  344  git commit -m 'first commit'
+  345  git status
+  346  git branch
+  347  cd ..
+  348  ls
+  349  ls -a
+  350  git branch
+  351  git status
+  352  git add .
+  353  git status
+  354  ls
+  355  git status
+  356  git reset
+  357  git branch
+  358  ls -a
+  359  cd Spoon-Knife/
+  360  git status
+  361  git branch
+  362  ls -l
+  363  cd ..
+  364  ls
+  365  rm .git
+  366  rm -r .git
+  367  y
+  368  clear
+  369  ls -a
+  370  git status
+  371  cd Spoon-Knife/
+  372  git status
+  373  git branch working-on
+  374  git checkout working-on
+  375  git branch
+  376  ls
+  377  echo 'adding things' >> README.md 
+  378  cat README.md 
+  379  git status
+  380  git add README.md 
+  381  git status
+  382  git commit -m 'first commit on working'
+  383  git status
+  384  git branch
+  385  git status
+  386  git checkout master
+  387  clear
+  388  git status
+  389  pwd
+  390  ls -altr
+  391  git branch
+  392  git merge working-on
+  393  git status
+  394  git log
+  395  pwd
+  396  git branch
+  397  git branch -d working-on
+  398  git push origin master
+  399  git config --user.name
+  400  git config --global user.name
+  401  git config --global user.name
+  402  git config --global user.name=brightquasar
+  403  git config --global user.name 'brightquasar'
+  404  git config --global user.email
+  405  git config --global user.email 'brightquasarsoftware@gmail.com'
+  406  git push origin master
+  407  git config --global user.name
+  408  git config 
+  409  git config --global
+  410  git config --global user.name
+  411  git config --global user.username
+  412  git push origin master
+  413  cd ..
+  414  git status
+  415  git config user.name
+  416  cd Spoon-Knife/
+  417  git config --global user.name
+  418  git config --local user.name
+  419  git config --global user.username brightquasar
+  420  git status
+  421  git push origin master
+  422  cd ..
+  423  cd Spoon-Knife/
+  424  ls
+  425  cd ..
+  426  cd Spoon-Knife/
+  427  git status
+  428  git branch
+  429  git push
+  430  ls -a
+  431  ls .git
+  432  cd .git
+  433  cd config
+  434  vim config
+  435  ls -al ~/ .ssh
+  436  cd
+  437  cd .gitconfig
+  438  cat .gitconfig
+  439  cd SatGitClassSpoonKnife/
+  440  ls
+  441  cd Spoon-Knife/
+  442  git status
+  443  git push
+  444  git config user.name
+  445  git config --global user.email
+  446  ls
+  447  ls -a
+  448  cd .git
+  449  ls
+  450  cat info
+  451  cd info
+  452  ls
+  453  cd ..
+  454  vim config
+  455  vim config
+  456  git config --global --edit
+  457  ls
+  458  cd ..
+  459  git remote --verbose
+  460  git config --global user.name
+  461  cd ..
+  462  ls
+  463  cd
+  464  ls -a
+  465  cd .gitconfig
+  466  vim .gitconfig
+  467  cd Documents/
+  468  ls
+  469  cd ..
+  470  git config credential.helper
+  471  git config credential.helper cache
+  472  cd ..
+  473  ls
+  474  clear
+  475  clear
+  476  pwd
+  477  ls -altr
+  478  git status
+  479  git checkout -b working_on
+  480  git branch
+  481  ls
+  482  echo "adrg"
+  483  cp con rick.txt
+  484  set
+  485  clear
+  486  ls -altr
+  487  echo "rik broke this here" >> README.md 
+  488  git status
+  489  git add .
+  490  git status
+  491  git commit -m "actually did no first commit, but herer is a small fix to README"
+  492  git checkout master
+  493  git status
+  494  git merge working_on
+  495  git status
+  496  git push
+  497  git status
+  498  git branch
+  499  git branch -d working_on
+  500  git branch
+  501  ll
+  502  cd ..
+  503  ll
+  504  fsh
+  505  fsh
+  506  fish
+  507  shell
+  508  ls -al
+  509  cd quasar/
+  510  ls
+  511  ls m*
+  512  history >> moving_around.txt
+
