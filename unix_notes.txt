@@ -499,3 +499,4 @@
   511  ls m*
   512  history >> moving_around.txt
 
+ rick changes
