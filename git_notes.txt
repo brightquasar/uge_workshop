@@ -2,3 +2,4 @@ Master branch is a lable git creates for us when we init a repo
 HEAD is another lable that git creates durring first commit
 # stuff
  rik added this too 
+ yet another line 
